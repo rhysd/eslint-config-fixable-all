@@ -46,10 +46,25 @@ For example, if you don't want to add semicolon, overwrite the configuration.
  }
 ```
 
-If you want to rollback the fixes, you can simply `git checkout`.
+Or if you don't want to fix semicolon, you can off the configuration.
+
+```diff
+ {
+     "extends": ["eslint:recommended", "fixable"],
++    "rules": {
++        "semi": "off"
++    }
+ }
+```
+
+When you want to rollback the fixes, you can simply `git checkout`.
 
 ```sh
 $ git checkout . # Rollback all fixes in current directory
 ```
 
-If you can accept the fixes, `git add -A` to add them to Git index.
+After you can accept the fixes, `git add -A` to add them to Git index.
+
+## License
+
+[MIT License](./LICENSE)
