@@ -4,6 +4,7 @@
   "description": "eslint configuratrion to ensure --fix your code",
   "main": "index.js",
   "scripts": {
+    "generate": "node ./scripts/generate-eslintrc.js > eslintrc.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/rhysd/eslint-config-fixable/issues"
   },
-  "homepage": "https://github.com/rhysd/eslint-config-fixable#readme"
+  "homepage": "https://github.com/rhysd/eslint-config-fixable#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1"
+  }
 }
