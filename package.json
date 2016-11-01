@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "eslint configuratrion to ensure --fix your code",
   "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "generate": "node ./scripts/generate-eslintrc.js > rules.json",
     "lint": "eslint .",
@@ -27,6 +30,8 @@
   "homepage": "https://github.com/rhysd/eslint-config-fixable#readme",
   "devDependencies": {
     "eslint": "^3.9.1",
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-node": "^3.0.0",
     "mocha": "^3.1.2"
   }
 }
