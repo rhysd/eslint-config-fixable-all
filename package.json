@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-fixable",
+  "name": "eslint-config-fixable-all",
   "version": "3.9.0",
   "description": "eslint configuratrion to ensure --fix your code",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhysd/eslint-config-fixable.git"
+    "url": "git+https://github.com/rhysd/eslint-config-fixable-all.git"
   },
   "keywords": [
     "eslint",
@@ -25,9 +25,9 @@
   "author": "rhysd <lin90162@yahoo.co.jp>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhysd/eslint-config-fixable/issues"
+    "url": "https://github.com/rhysd/eslint-config-fixable-all/issues"
   },
-  "homepage": "https://github.com/rhysd/eslint-config-fixable#readme",
+  "homepage": "https://github.com/rhysd/eslint-config-fixable-all#readme",
   "devDependencies": {
     "eslint": "^3.9.1",
     "eslint-plugin-mocha": "^4.7.0",

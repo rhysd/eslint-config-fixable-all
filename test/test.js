@@ -1,7 +1,7 @@
 const assert = require('assert');
 const CLIEngine = require('eslint').CLIEngine;
 
-describe('eslint-config-fixable', function() {
+describe('eslint-config-fixable-all', function() {
     beforeEach(function () {
         this.cli = new CLIEngine({
             useEslintrc: false,

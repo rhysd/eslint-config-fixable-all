@@ -1,13 +1,13 @@
-eslint-config-fixable
-=====================
-[![Build Status](https://travis-ci.org/rhysd/eslint-config-fixable.svg?branch=master)](https://travis-ci.org/rhysd/eslint-config-fixable)
+eslint-config-fixable-all
+=========================
+[![Build Status](https://travis-ci.org/rhysd/eslint-config-fixable-all.svg?branch=master)](https://travis-ci.org/rhysd/eslint-config-fixable-all)
 
 This is a list of [eslint](http://eslint.org/) rules which can be fixed automatically by `eslint --fix`.  This configuration specifies all fixable rules as 'error'. So all the fixable rules violation causes linter error and we need to fix them. With this configuration it ensures all the fixable problems should be fixed.
 
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-fixable
+$ npm install --save-dev eslint eslint-config-fixable-all
 ```
 
 ## Usage
@@ -68,7 +68,7 @@ After you can accept the fixes, `git add -A` to add them to Git index.
 
 ## Versioning
 
-Major version and minor version are synchronized with eslint. For example, eslint-config-fixable v3.9.x is compatible with eslint v3.9.x. eslint-config-fixable's patch version is not compatible with eslint. But you need not to care about it because eslint follows semantic versioning.
+Major version and minor version are synchronized with eslint. For example, eslint-config-fixable-all v3.9.x is compatible with eslint v3.9.x. eslint-config-fixable-all's patch version is not compatible with eslint. But you need not to care about it because eslint follows semantic versioning.
 
 ## License
 
