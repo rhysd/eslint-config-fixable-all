@@ -2,7 +2,7 @@ eslint-config-fixable
 =====================
 [![Build Status](https://travis-ci.org/rhysd/eslint-config-fixable.svg?branch=master)](https://travis-ci.org/rhysd/eslint-config-fixable)
 
-This is a list of rule which can be fixed automatically by `eslint --fix`.  This configuration specifies all fixable rules as 'error'. So all the fixable rules violation causes linter error and we need to fix them. With this configuration it ensures all the fixable problems should be fixed.
+This is a list of [eslint](http://eslint.org/) rules which can be fixed automatically by `eslint --fix`.  This configuration specifies all fixable rules as 'error'. So all the fixable rules violation causes linter error and we need to fix them. With this configuration it ensures all the fixable problems should be fixed.
 
 ## Installation
 
@@ -65,6 +65,10 @@ $ git checkout . # Rollback all fixes in current directory
 ```
 
 After you can accept the fixes, `git add -A` to add them to Git index.
+
+## Versioning
+
+Major version and minor version are synchronized with eslint. For example, eslint-config-fixable v3.9.x is compatible with eslint v3.9.x. eslint-config-fixable's patch version is not compatible with eslint. But you need not to care about it because eslint follows semantic versioning.
 
 ## License
 
