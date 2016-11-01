@@ -1,5 +1,6 @@
 eslint-config-fixable
 =====================
+[![Build Status](https://travis-ci.org/rhysd/eslint-config-fixable.svg?branch=master)](https://travis-ci.org/rhysd/eslint-config-fixable)
 
 This is a list of rule which can be fixed automatically by `eslint --fix`.  This configuration specifies all fixable rules as 'error'. So all the fixable rules violation causes linter error and we need to fix them. With this configuration it ensures all the fixable problems should be fixed.
 
