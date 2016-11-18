@@ -10,6 +10,7 @@
     "generate": "node ./scripts/generate-eslintrc.js > eslintrc.json",
     "lint": "eslint .",
     "test": "mocha test/",
+    "update": "node ./scripts/bump-version.js",
     "pretest": "npm run lint",
     "preversion": "npm run test"
   },
