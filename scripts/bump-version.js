@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const execSync = require('child_process').execSync;
 const sv = require('semver');
 const eslint = require('eslint/package.json');
@@ -19,7 +21,7 @@ if (next === null) {
     process.exit(130);
 }
 
-const cmd = `npm version ${next}`
-console.log(`Executing ${cmd}...`);
+const cmd = `npm version ${next}`;
+console.log(`Executing '${cmd}'...`);
 
 execSync(cmd);
