@@ -17,7 +17,7 @@ At first, extend this config to your `.eslintrc`
 ```diff
  {
 -    "extends": ["eslint:recommended"]
-+    "extends": ["eslint:recommended", "fixable"]
++    "extends": ["eslint:recommended", "fixable-all"]
  }
 ```
 
