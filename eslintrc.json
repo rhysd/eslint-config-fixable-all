@@ -44,6 +44,7 @@
     "no-undef-init": "error",
     "no-unneeded-ternary": "error",
     "no-unsafe-negation": "error",
+    "no-unused-labels": "error",
     "no-useless-computed-key": "error",
     "no-useless-rename": "error",
     "no-useless-return": "error",
