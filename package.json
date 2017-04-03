@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fixable-all",
-  "version": "3.16.1",
+  "version": "3.19.0",
   "description": "eslint configuratrion to ensure --fix your code",
   "main": "index.js",
   "engines": {
