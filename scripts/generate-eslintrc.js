@@ -1,7 +1,7 @@
-const rules = require('eslint/lib/rules');
-const load = require('eslint/lib/load-rules');
+const Rules = require('eslint/lib/rules');
+const rules = new Rules();
 
-const enabled = Object.keys(load()).reduce((acc, id) => {
+const enabled = Object.keys(rules._rules).reduce((acc, id) => {
     const r = rules.get(id);
     if (!r.meta.deprecated && r.meta.fixable) {
         acc[id] = 'error';
