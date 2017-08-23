@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/rhysd/eslint-config-fixable-all#readme",
   "devDependencies": {
-    "eslint": "^4.4.1",
-    "eslint-plugin-mocha": "^4.8.0",
-    "eslint-plugin-node": "^4.0.1",
-    "mocha": "^3.2.0"
+    "eslint": "^4.5.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-node": "^5.1.1",
+    "mocha": "^3.5.0"
   },
   "peerDependencies": {
-    "eslint": "^4.4.1"
+    "eslint": "^4.5.0"
   }
 }
