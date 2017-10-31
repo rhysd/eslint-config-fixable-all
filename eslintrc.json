@@ -27,6 +27,8 @@
     "keyword-spacing": "error",
     "linebreak-style": "error",
     "lines-around-comment": "error",
+    "lines-between-class-members": "error",
+    "multiline-comment-style": "error",
     "new-parens": "error",
     "newline-per-chained-call": "error",
     "no-confusing-arrow": "error",

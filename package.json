@@ -9,7 +9,7 @@
   "scripts": {
     "generate": "node ./scripts/generate-eslintrc.js > eslintrc.json",
     "lint": "eslint .",
-    "test": "mocha test/",
+    "test": "mocha --exit test/",
     "update": "node ./scripts/bump-version.js",
     "pretest": "npm run lint",
     "preversion": "npm run test"
@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/rhysd/eslint-config-fixable-all#readme",
   "devDependencies": {
-    "eslint": "^4.8.0",
+    "eslint": "^4.10.0",
     "eslint-plugin-mocha": "^4.11.0",
-    "eslint-plugin-node": "^5.1.1",
-    "mocha": "^3.5.3"
+    "eslint-plugin-node": "^5.2.1",
+    "mocha": "^4.0.1"
   },
   "peerDependencies": {
-    "eslint": "^4.8.0"
+    "eslint": "^4.10.0"
   }
 }
