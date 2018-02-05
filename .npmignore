@@ -1,2 +1,6 @@
 /scripts
 /test
+/.gitignore
+/.travis.yml
+/.npmrc
+/.eslintrc.json
