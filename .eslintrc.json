@@ -1,6 +1,9 @@
 {
   "extends": "eslint:recommended",
-  "plugins": ["mocha", "node"],
+  "plugins": [
+    "mocha",
+    "node"
+  ],
   "env": {
     "node": true,
     "mocha": true
@@ -9,8 +12,14 @@
     "ecmaVersion": "2015"
   },
   "rules": {
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
     "mocha/no-mocha-arrows": "error",
     "mocha/handle-done-callback": "error",
     "mocha/no-exclusive-tests": "error",
