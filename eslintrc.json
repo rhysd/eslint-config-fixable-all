@@ -33,7 +33,6 @@
     "new-parens": "error",
     "newline-per-chained-call": "error",
     "no-confusing-arrow": "error",
-    "no-debugger": "error",
     "no-else-return": "error",
     "no-extra-bind": "error",
     "no-extra-boolean-cast": "error",
