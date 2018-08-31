@@ -4,13 +4,14 @@
   "description": "eslint configuratrion to ensure --fix your code",
   "main": "index.js",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "generate": "node ./scripts/generate-eslintrc.js > eslintrc.json",
     "lint": "eslint .",
     "test": "mocha --exit test/",
-    "update": "node ./scripts/bump-version.js",
+    "bump": "node ./scripts/bump-version.js",
+    "update": "node ./scripts/update-eslint.js",
     "pretest": "npm run lint",
     "preversion": "npm run test"
   },
