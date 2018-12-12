@@ -91,7 +91,6 @@
     "template-curly-spacing": "error",
     "template-tag-spacing": "error",
     "unicode-bom": "error",
-    "valid-jsdoc": "error",
     "wrap-iife": "error",
     "wrap-regex": "error",
     "yield-star-spacing": "error",
