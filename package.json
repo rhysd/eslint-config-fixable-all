@@ -12,6 +12,7 @@
     "test": "mocha --exit test/",
     "bump": "node ./scripts/bump-version.js",
     "update": "node ./scripts/update-eslint.js",
+    "all": "npm-run-all update generate bump && npm publish",
     "pretest": "npm run lint",
     "preversion": "npm run test"
   },
@@ -36,7 +37,8 @@
     "eslint-plugin-mocha": "^5.2.0",
     "eslint-plugin-node": "^7.0.1",
     "heredocument": "^2.0.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "npm-run-all": "^4.1.5"
   },
   "peerDependencies": {
     "eslint": "~5.16.0"
